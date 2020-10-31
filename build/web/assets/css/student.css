@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 24, 2020, 1:38:22 AM
+    Author     : UCHIHA
+*/
+body{
+    overflow: hidden;
+    background-color: black;
+}
+table{
+    padding: 15px;
+    border: 1px solid black;
+    position: relative;
+    left: 38%;
+    font-size: 18px;
+    background-color:black;
+    color: white;
+    border-spacing: 0 10px;
+}
+
+
+
+.heading{
+    position: relative;
+    left:39%;
+    
+}
+sup{
+    font-size: 12px;
+}
+h1{
+    margin-top: 10%;
+    color: white;
+    font-size: 36px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+button{
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    width: 100%;
+    height: 25%;
+    padding: 5px;
+    margin-bottom: 30%;
+}
+
+#ultraCourseCatalogLink a,#ultraCourseCatalogLink a:visited, #ultraCourseCatalogLink a:active{
+    font-size: .75rem;
+    color: #969696;
+    font-family: "Open Sans",sans-serif;
+    text-decoration: underline;
+    position: relative;
+    left:42.5%;
+   
+}
+
+.legal{
+    position: relative;
+    left:39%;
+    font-size: x-small;
+    color:#969696;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 7%;
+    
+}
+ul.inline-list{
+   
+    min-width: 200px;
+    list-style: none;
+    
+}
+ul.inline-list li{
+    display: inline;
+    text-decoration: underline;
+    margin: 10px;
+}
+#gatewayButtons a,#gatewayButtons a:visited, #gatewayButtons a:active{
+    font-size: .75rem;
+    color: #969696;
+    font-family: "Open Sans",sans-serif;
+    text-decoration: underline;
+    position: relative;
+    left:38%;
+    margin-top:3%;
+}
+
