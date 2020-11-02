@@ -21,11 +21,11 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>FormServlet</servlet-name>
-        <url-pattern>/student</url-pattern>
+        <url-pattern>/login</url-pattern>
     </servlet-mapping>
      <servlet-mapping>
         <servlet-name>FormServlet</servlet-name>
-        <url-pattern>/form</url-pattern>
+        <url-pattern>/home</url-pattern>
     </servlet-mapping>
      
     

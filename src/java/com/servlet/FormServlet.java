@@ -20,16 +20,15 @@ public class FormServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("Running");
-        String name,email,dob,gender,password;
-                name=req.getParameter("name");
-                email=req.getParameter("email");
-                dob=req.getParameter("dob");
-                gender=req.getParameter("gender");
+        String username,email,dob,gender,password;
+                username=req.getParameter("username");
                 password=req.getParameter("password");
-                System.out.println(name+email+dob+gender+password);
-                if(email.equals("abc@gmail.com") && password.equals("asdfg"))
+                String[] path=req.getRequestURI().split("/");
+                System.out.println(username+password+path.toString());
+                
+                if(username.equals("20mca1260") && password.equals("asdfg"))
                 {
-                    resp.sendRedirect("home.jsp");
+                    resp.sendRedirect("/TestWebApplication/home.html");
                 }
         
     }
@@ -38,7 +37,7 @@ public class FormServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
        // super.doGet(req, resp); //To change body of generated methods, choose Tools | Templates.
         String[] path=req.getRequestURI().split("/");
-        if(path[2].equals("student"))
+        if(path[2].equals("login"))
             resp.sendRedirect("student.html");
     }
     
