@@ -37,14 +37,7 @@ h1{
     color: white;
     font-size: 36px;
 }
-input{
-    border: none;
-    border-bottom: 2px solid white;
-    color: white;
-    background-color: transparent;
-}
-
-button{
+input[type=submit]{
     border: 2px solid white;
     color: white;
     background-color: transparent;
@@ -53,6 +46,15 @@ button{
     padding: 5px;
     margin-bottom: 30%;
 }
+input{
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+
+
 
 #ultraCourseCatalogLink a,#ultraCourseCatalogLink a:visited, #ultraCourseCatalogLink a:active{
     font-size: .75rem;

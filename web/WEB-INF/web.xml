@@ -23,11 +23,16 @@
         <servlet-name>FormServlet</servlet-name>
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
+    
      <servlet-mapping>
         <servlet-name>FormServlet</servlet-name>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
      
+     <!--welcme file-->
+    <welcome-file-list>
+        <welcome-file>student.html</welcome-file>
+    </welcome-file-list>
     
     
     <session-config>

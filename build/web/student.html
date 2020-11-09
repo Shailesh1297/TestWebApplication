@@ -9,12 +9,12 @@ and open the template in the editor.
         <title>Form</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="assets/css/student.css?id=6" rel="stylesheet">
+        <link href="assets/css/student.css?id=7" rel="stylesheet">
     </head>
     <body>
         <div class="heading"><h1>Blackboard<sup>&copy;</sup></h1></div>
         <div>
-            <form action="/home" method="post">
+            <form action="home" method="post">
                 <table>
                     <tr> <td>Username</td></tr>
                     <tr><td colspan="3"><input type="text" name="username" size="25" maxlength="50" autocomplete="off" required></td></tr>
@@ -22,7 +22,7 @@ and open the template in the editor.
                     <tr><td>Password</td></tr>
                     <tr> <td colspan="3"><input type="password" name="password" size="25" required></td></tr>
                     <tr><td>&nbsp;</td></tr>
-                    <tr><td colspan="3"><center><button type="submit">Sign In</button></center></td></tr>
+                    <tr><td colspan="3"><center><input id="signin" type="submit" value="SignIn"/></center></td></tr>
                 </table>
                 
             </form>
